@@ -1,0 +1,22 @@
+<Window x:Class="KinoApp.UI.Views.SeatSelectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:KinoApp.UI.Controls"
+        Title="Wybór miejsc" Height="700" Width="1000" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="{Binding Naglowek}" FontSize="16" FontWeight="Bold" Margin="10" Foreground="White"/>
+
+        <controls:SeatMapControl Grid.Row="1" Seats="{Binding SeatViewModels}" Columns="12" />
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="10">
+            <Button Content="Zarezerwuj" Command="{Binding ReserveCommand}" Margin="5"/>
+            <Button Content="Drukuj bilet (PDF)" Command="{Binding PrintTicketCommand}" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,116 @@
+<Window x:Class="KinoApp.UI.Views.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:KinoApp.UI"
+        xmlns:controls="clr-namespace:KinoApp.UI.Controls"
+        Title="Panel Główny"
+        WindowState="Maximized"
+        Background="{StaticResource Brush.BackgroundDark}">
+
+    <Grid>
+
+        <!-- LEWY PANEL -->
+        <Border Background="{StaticResource Brush.PanelDarker}"
+                Width="230" HorizontalAlignment="Left">
+            <StackPanel Margin="20">
+
+                <TextBlock Text="🎬 NEON CINEMA"
+                           FontSize="28" 
+                           Foreground="White"
+                           Margin="0 10 0 30"/>
+
+                <!-- Nawigacja -->
+                <Button Content="🏠  Start"
+                        Style="{StaticResource NavButtonStyle}"
+                        Command="{Binding NavigateDashboardCommand}"/>
+
+                <Button Content="🎬  Filmy"
+                        Style="{StaticResource NavButtonStyle}"
+                        Command="{Binding NavigateFilmsCommand}"/>
+
+                <Button Content="📅  Harmonogram"
+                        Style="{StaticResource NavButtonStyle}"
+                        Command="{Binding NavigateScheduleCommand}"/>
+
+                <Button Content="🎟️  Rezerwacje"
+                        Style="{StaticResource NavButtonStyle}"
+                        Command="{Binding NavigateReservationsCommand}"/>
+
+                <Button Content="💸  Sprzedaż"
+                        Style="{StaticResource NavButtonStyle}"
+                        Command="{Binding NavigateSalesCommand}"/>
+
+                <Button Content="👤  Użytkownicy"
+                        Style="{StaticResource NavButtonStyle}"
+                        Command="{Binding NavigateUsersCommand}"/>
+
+
+                <controls:DashboardTile 
+                    Title="Dzisiejsze seanse"
+                    Description="Łącznie w harmonogramie" />
+
+                <controls:DashboardTile 
+                    Title="Rezerwacje"
+                    Description="Aktywne rezerwacje" />
+
+            </StackPanel>
+        </Border>
+
+        <!-- PRAWA STRONA (z ContentControl) -->
+        <Grid Margin="230 0 0 0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- GÓRNY PASEK (bez zmian) -->
+            <Border Background="{StaticResource Brush.PanelDark}"
+                    Height="70"
+                    Padding="20"
+                    Grid.Row="0">
+                <DockPanel>
+                    <TextBlock Text="Witaj, Admin!"
+                               FontSize="20"
+                               Foreground="White"
+                               DockPanel.Dock="Left"/>
+
+                    <StackPanel DockPanel.Dock="Right" Orientation="Horizontal">
+                        <TextBlock Text="{Binding DzisiejszaData}"
+                                   Foreground="#CCCCCC"
+                                   Margin="0 0 20 0"/>
+
+                        <TextBlock Text="🔔" FontSize="20" Margin="0 0 20 0"/>
+                        <TextBlock Text="⚙️" FontSize="20" Margin="0 0 20 0"/>
+                        <TextBlock Text="⎋" FontSize="20"/>
+                    </StackPanel>
+                </DockPanel>
+            </Border>
+
+            <!-- SLIDER FILMÓW (bez zmian) -->
+            <ScrollViewer Grid.Row="1"
+                          Margin="20"
+                          HorizontalScrollBarVisibility="Hidden"
+                          VerticalScrollBarVisibility="Disabled">
+                <ItemsControl ItemsSource="{Binding DzisiejszeFilmy}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <controls:PosterCard/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+
+            <ContentControl Grid.Row="2"
+                Margin="20"
+                Content="{Binding CurrentContent}"/>
+
+        </Grid>
+    </Grid>
+</Window>

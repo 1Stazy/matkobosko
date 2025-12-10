@@ -1,0 +1,148 @@
+[2025-12-09T00:30:14.4837151+01:00] App starting...
+[2025-12-09T00:30:16.2210755+01:00] Host built
+[2025-12-09T00:30:16.2440801+01:00] Host started
+[2025-12-09T00:30:18.1555600+01:00] Database ensured and seeded
+[2025-12-09T00:30:18.1843893+01:00] Failed to show LoginView: System.Windows.Markup.XamlParseException: Nie odnaleziono pasującego konstruktora w typie „KinoApp.UI.ViewModels.LoginViewModel” Do skonstruowania tego typu można użyć dyrektywy Arguments lub FactoryMethod., numer wiersza 9, pozycja 10.
+ ---> System.MissingMethodException: Nie odnaleziono domyślnego konstruktora dla typu „KinoApp.UI.ViewModels.LoginViewModel”. Do skonstruowania tego typu można użyć dyrektywy Arguments lub FactoryMethod.
+   at System.Xaml.Schema.XamlTypeInvoker.DefaultCtorXamlActivator.EnsureConstructorDelegate(XamlTypeInvoker type)
+   at System.Xaml.Schema.XamlTypeInvoker.CreateInstance(Object[] arguments)
+   at MS.Internal.Xaml.Runtime.ClrObjectRuntime.CreateInstance(XamlType xamlType, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Windows.Markup.XamlReader.RewrapException(Exception e, IXamlLineInfo lineInfo, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   at System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at KinoApp.UI.Views.LoginView.InitializeComponent() in C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.UI\Views\LoginView.xaml:line 1
+   at KinoApp.UI.Views.LoginView..ctor() in C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.UI\Views\LoginView.xaml.cs:line 12
+   at System.RuntimeMethodHandle.InvokeMethod(ObjectHandleOnStack target, Void** arguments, ObjectHandleOnStack sig, BOOL isConstructor, ObjectHandleOnStack result)
+   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Constructor(Object obj, IntPtr* args)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at KinoApp.UI.App.OnStartup(StartupEventArgs e) in C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.UI\App.xaml.cs:line 87
+[2025-12-09T00:30:39.9494124+01:00] App starting...
+[2025-12-09T00:30:40.0593701+01:00] Host built
+[2025-12-09T00:30:40.0824476+01:00] Host started
+[2025-12-09T00:30:40.9885463+01:00] Database ensured and seeded
+[2025-12-09T00:30:41.0174279+01:00] Failed to show LoginView: System.Windows.Markup.XamlParseException: Nie odnaleziono pasującego konstruktora w typie „KinoApp.UI.ViewModels.LoginViewModel” Do skonstruowania tego typu można użyć dyrektywy Arguments lub FactoryMethod., numer wiersza 9, pozycja 10.
+ ---> System.MissingMethodException: Nie odnaleziono domyślnego konstruktora dla typu „KinoApp.UI.ViewModels.LoginViewModel”. Do skonstruowania tego typu można użyć dyrektywy Arguments lub FactoryMethod.
+   at System.Xaml.Schema.XamlTypeInvoker.DefaultCtorXamlActivator.EnsureConstructorDelegate(XamlTypeInvoker type)
+   at System.Xaml.Schema.XamlTypeInvoker.CreateInstance(Object[] arguments)
+   at MS.Internal.Xaml.Runtime.ClrObjectRuntime.CreateInstance(XamlType xamlType, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Windows.Markup.XamlReader.RewrapException(Exception e, IXamlLineInfo lineInfo, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   at System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at KinoApp.UI.Views.LoginView.InitializeComponent() in C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.UI\Views\LoginView.xaml:line 1
+   at KinoApp.UI.Views.LoginView..ctor() in C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.UI\Views\LoginView.xaml.cs:line 12
+   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Constructor(Object obj, IntPtr* args)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at KinoApp.UI.App.OnStartup(StartupEventArgs e) in C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.UI\App.xaml.cs:line 87
+[2025-12-09T00:31:30.4210039+01:00] App starting...
+[2025-12-09T00:31:30.5237291+01:00] Host built
+[2025-12-09T00:31:30.5436283+01:00] Host started
+[2025-12-09T00:31:31.5471180+01:00] Database ensured and seeded
+[2025-12-09T00:31:31.5748725+01:00] Failed to show LoginView: System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.DefaultBinder.BindToMethod(BindingFlags bindingAttr, MethodBase[] match, Object[]& args, ParameterModifier[] modifiers, CultureInfo cultureInfo, String[] names, Object& state)
+   at MS.Internal.Xaml.Runtime.DynamicMethodRuntime.CreateInstanceWithCtor(Type type, Object[] args)
+   at MS.Internal.Xaml.Runtime.ClrObjectRuntime.CreateInstance(XamlType xamlType, Object[] args)
+   at System.Xaml.XamlObjectWriter.Logic_CreateAndAssignToParentStart(ObjectWriterContext ctx)
+   at System.Xaml.XamlObjectWriter.WriteEndObject()
+   at System.Windows.Markup.WpfXamlLoader.TransformNodes(XamlReader xamlReader, XamlObjectWriter xamlWriter, Boolean onlyLoadOneNode, Boolean skipJournaledProperties, Boolean shouldPassLineNumberInfo, IXamlLineInfo xamlLineInfo, IXamlLineInfoConsumer xamlLineInfoConsumer, XamlContextStack`1 stack, IStyleConnector styleConnector)
+   at System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   at System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at KinoApp.UI.Views.LoginView.InitializeComponent() in C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.UI\Views\LoginView.xaml:line 1
+   at KinoApp.UI.Views.LoginView..ctor() in C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.UI\Views\LoginView.xaml.cs:line 12
+   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Constructor(Object obj, IntPtr* args)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at KinoApp.UI.App.OnStartup(StartupEventArgs e) in C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.UI\App.xaml.cs:line 87
+[2025-12-09T00:40:21.0575361+01:00] App starting...
+[2025-12-09T00:40:22.6968553+01:00] Host built
+[2025-12-09T00:40:22.7163413+01:00] Host started
+[2025-12-09T00:40:24.4135726+01:00] Database ensured and seeded
+[2025-12-09T00:40:24.7880725+01:00] LoginView shown
+[2025-12-09T00:40:24.7884941+01:00] OnStartup completed
+[2025-12-09T00:49:05.7414225+01:00] App starting...
+[2025-12-09T00:49:07.4438235+01:00] Host built
+[2025-12-09T00:49:07.4635024+01:00] Host started
+[2025-12-09T00:49:09.1929240+01:00] Database ensured and seeded
+[2025-12-09T00:49:09.5464656+01:00] LoginView shown
+[2025-12-09T00:49:09.5469435+01:00] OnStartup completed
+[2025-12-09T00:51:50.5841595+01:00] App starting...
+[2025-12-09T00:51:52.3941068+01:00] Host built
+[2025-12-09T00:51:52.4140493+01:00] Host started
+[2025-12-09T00:51:54.1165072+01:00] Database ensured and seeded
+[2025-12-09T00:51:54.4672736+01:00] LoginView shown
+[2025-12-09T00:51:54.4677238+01:00] OnStartup completed
+[2025-12-09T00:56:10.5061506+01:00] App starting...
+[2025-12-09T00:56:12.2955811+01:00] Host built
+[2025-12-09T00:56:12.3161254+01:00] Host started
+[2025-12-09T00:56:14.0261299+01:00] Database ensured and seeded
+[2025-12-09T00:56:14.3624274+01:00] LoginView shown
+[2025-12-09T00:56:14.3627685+01:00] OnStartup completed
+[2025-12-09T00:56:37.9136699+01:00] App starting...
+[2025-12-09T00:56:39.7922110+01:00] Host built
+[2025-12-09T00:56:39.8125421+01:00] Host started
+[2025-12-09T00:56:41.5261511+01:00] Database ensured and seeded
+[2025-12-09T00:56:41.8377735+01:00] LoginView shown
+[2025-12-09T00:56:41.8387332+01:00] OnStartup completed
+[2025-12-09T01:06:51.1941944+01:00] App starting...
+[2025-12-09T01:06:51.2975883+01:00] Host built
+[2025-12-09T01:06:51.3185954+01:00] Host started
+[2025-12-09T01:06:52.2032933+01:00] Database ensured and seeded
+[2025-12-09T01:06:52.5536672+01:00] LoginView shown
+[2025-12-09T01:06:52.5540205+01:00] OnStartup completed
+[2025-12-09T01:09:20.1224560+01:00] App starting...
+[2025-12-09T01:09:20.2202467+01:00] Host built
+[2025-12-09T01:09:20.2396082+01:00] Host started
+[2025-12-09T01:09:21.1314657+01:00] Database ensured and seeded
+[2025-12-09T01:09:21.4793226+01:00] LoginView shown
+[2025-12-09T01:09:21.4796290+01:00] OnStartup completed
+[2025-12-09T01:28:45.4819026+01:00] App starting...
+[2025-12-09T01:28:45.5871236+01:00] Host built
+[2025-12-09T01:28:45.6067794+01:00] Host started
+[2025-12-09T01:28:46.4694359+01:00] Database ensured and seeded
+[2025-12-09T01:28:46.7932217+01:00] LoginView shown
+[2025-12-09T01:28:46.7935251+01:00] OnStartup completed
+[2025-12-10T00:24:33.8686713+01:00] App starting...
+[2025-12-10T00:24:34.2322173+01:00] Host built
+[2025-12-10T00:24:34.2519141+01:00] Host started
+[2025-12-10T00:24:35.4079952+01:00] Database ensured and seeded
+[2025-12-10T00:24:35.7384475+01:00] LoginView shown
+[2025-12-10T00:24:35.7390711+01:00] OnStartup completed

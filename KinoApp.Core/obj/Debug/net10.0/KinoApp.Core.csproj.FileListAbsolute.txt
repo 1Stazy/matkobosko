@@ -1,0 +1,36 @@
+C:\Users\Szymon Tkaczyk\Documents\KinoApp\KinoApp.Core\bin\Debug\net10.0\KinoApp.Core.deps.json
+C:\Users\Szymon Tkaczyk\Documents\KinoApp\KinoApp.Core\bin\Debug\net10.0\KinoApp.Core.dll
+C:\Users\Szymon Tkaczyk\Documents\KinoApp\KinoApp.Core\bin\Debug\net10.0\KinoApp.Core.pdb
+C:\Users\Szymon Tkaczyk\Documents\KinoApp\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.csproj.AssemblyReference.cache
+C:\Users\Szymon Tkaczyk\Documents\KinoApp\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Szymon Tkaczyk\Documents\KinoApp\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.AssemblyInfoInputs.cache
+C:\Users\Szymon Tkaczyk\Documents\KinoApp\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.AssemblyInfo.cs
+C:\Users\Szymon Tkaczyk\Documents\KinoApp\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\Szymon Tkaczyk\Documents\KinoApp\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.dll
+C:\Users\Szymon Tkaczyk\Documents\KinoApp\KinoApp.Core\obj\Debug\net10.0\refint\KinoApp.Core.dll
+C:\Users\Szymon Tkaczyk\Documents\KinoApp\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.pdb
+C:\Users\Szymon Tkaczyk\Documents\KinoApp\KinoApp.Core\obj\Debug\net10.0\ref\KinoApp.Core.dll
+C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.Core\bin\Debug\net10.0\KinoApp.Core.deps.json
+C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.Core\bin\Debug\net10.0\KinoApp.Core.dll
+C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.Core\bin\Debug\net10.0\KinoApp.Core.pdb
+C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.csproj.AssemblyReference.cache
+C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.AssemblyInfoInputs.cache
+C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.AssemblyInfo.cs
+C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.dll
+C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.Core\obj\Debug\net10.0\refint\KinoApp.Core.dll
+C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.pdb
+C:\Users\Szymon Tkaczyk\Documents\KinoApp_v2\KinoApp.Core\obj\Debug\net10.0\ref\KinoApp.Core.dll
+C:\Users\s.tkaczyk\Documents\test\KinoApp\KinoApp.Core\bin\Debug\net10.0\KinoApp.Core.deps.json
+C:\Users\s.tkaczyk\Documents\test\KinoApp\KinoApp.Core\bin\Debug\net10.0\KinoApp.Core.dll
+C:\Users\s.tkaczyk\Documents\test\KinoApp\KinoApp.Core\bin\Debug\net10.0\KinoApp.Core.pdb
+C:\Users\s.tkaczyk\Documents\test\KinoApp\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.csproj.AssemblyReference.cache
+C:\Users\s.tkaczyk\Documents\test\KinoApp\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s.tkaczyk\Documents\test\KinoApp\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.AssemblyInfoInputs.cache
+C:\Users\s.tkaczyk\Documents\test\KinoApp\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.AssemblyInfo.cs
+C:\Users\s.tkaczyk\Documents\test\KinoApp\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\s.tkaczyk\Documents\test\KinoApp\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.dll
+C:\Users\s.tkaczyk\Documents\test\KinoApp\KinoApp.Core\obj\Debug\net10.0\refint\KinoApp.Core.dll
+C:\Users\s.tkaczyk\Documents\test\KinoApp\KinoApp.Core\obj\Debug\net10.0\KinoApp.Core.pdb
+C:\Users\s.tkaczyk\Documents\test\KinoApp\KinoApp.Core\obj\Debug\net10.0\ref\KinoApp.Core.dll
